@@ -1,0 +1,16 @@
+/* ここから書きましょう */
+.card {
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    display: flex; /* 子要素を横並びにする */
+    justify-content: center; /* 子要素間のスペースを調整（オプション） */
+}

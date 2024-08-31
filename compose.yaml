@@ -1,0 +1,9 @@
+services:
+  react:
+    build: .
+    volumes:
+      - ./my-react-app:/my-react-app
+    ports:
+      - "5173:5173"
+    working_dir: /my-react-app
+    command: ["npm", "run", "dev"]
